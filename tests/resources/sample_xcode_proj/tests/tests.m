@@ -7,6 +7,8 @@
 
 #import <XCTest/XCTest.h>
 
+#import "sample_xcode_proj.h"
+
 @interface tests : XCTestCase
 
 @end
@@ -24,6 +26,8 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    sample_xcode_proj *sxp = [[sample_xcode_proj alloc] init];
+    [sxp test];
 }
 
 - (void)testPerformanceExample {

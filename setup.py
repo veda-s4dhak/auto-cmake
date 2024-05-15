@@ -2,14 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='auto_cmake',
-    version='2024.03.16',
-    author='Veda Sadhak',
-    author_email='vedasadhak@gmail.com',
+    version='2024.03.25',
+    author='Anish Agarwal',
     description='Automate setup of CMake projects',
     long_description=open('readme.md').read(),
     include_package_data=True,
     long_description_content_type='text/markdown',
-    url='https://github.com/veda-s4dhak/auto-cmake.git',
+    url='https://github.com/a22agarw/auto-cmake.git',
     packages=find_packages(),
     install_requires=[
         'pbxproj'

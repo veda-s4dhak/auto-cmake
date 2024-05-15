@@ -7,9 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09F44A2984973C98BF7072E3 /* multiply.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D4D6BAC07CF9E66884687 /* multiply.c */; };
+		22FE45B98B8F94E1B14202F4 /* multiply.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AD44F2ACF7D2E6F6C87E55 /* multiply.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F44DE39D0331A4E6C58793 /* multiply.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AD44F2ACF7D2E6F6C87E55 /* multiply.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38964ECB8E688B2DFE06EFAC /* divide.h in Headers */ = {isa = PBXBuildFile; fileRef = 020441BCACF8A365452A33D4 /* divide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AD41D3B67D167A1A664D8F /* divide.h in Headers */ = {isa = PBXBuildFile; fileRef = 020441BCACF8A365452A33D4 /* divide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		637541209B11D57B9A46C069 /* subtract.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C04ECEB50BF45C98E609F6 /* subtract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		895C48F7AC82192F80924CCA /* subtract.c in Sources */ = {isa = PBXBuildFile; fileRef = 61A340449BE115FE9896A8B3 /* subtract.c */; };
+		AC9A417C997A43701BCFC5C3 /* divide.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E01428E9BF83679E4648327 /* divide.c */; };
+		AD91426087AF660E5282B57F /* add.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DD45D1B52BEA785882A90B /* add.c */; };
+		B2374BD18684456670806269 /* add.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DD45D1B52BEA785882A90B /* add.c */; };
+		B2AB4382A597692F0E685279 /* add.h in Headers */ = {isa = PBXBuildFile; fileRef = AB984682913BC298B6D37B85 /* add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B652437683C2F0C0E73E84AC /* subtract.c in Sources */ = {isa = PBXBuildFile; fileRef = 61A340449BE115FE9896A8B3 /* subtract.c */; };
+		BC8F45319C24C71537627891 /* divide.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E01428E9BF83679E4648327 /* divide.c */; };
+		CCA94445851B68CAEFD279B9 /* multiply.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D4D6BAC07CF9E66884687 /* multiply.c */; };
+		CE504411BCEDE7CA6E4B30DF /* add.h in Headers */ = {isa = PBXBuildFile; fileRef = AB984682913BC298B6D37B85 /* add.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEB248EB946441791E7B758B /* subtract.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C04ECEB50BF45C98E609F6 /* subtract.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB62CB22BA565BB00F9F670 /* subtract.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 10C04ECEB50BF45C98E609F6 /* subtract.h */; };
+		ECB62CB32BA565BB00F9F670 /* multiply.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69AD44F2ACF7D2E6F6C87E55 /* multiply.h */; };
+		ECB62CB42BA565BB00F9F670 /* divide.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 020441BCACF8A365452A33D4 /* divide.h */; };
+		ECB62CB62BA565EB00F9F670 /* add.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB984682913BC298B6D37B85 /* add.h */; };
 		ECD9C9EF2B97DF01005A7818 /* sample_xcode_proj.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9C9EE2B97DF01005A7818 /* sample_xcode_proj.m */; };
 		ECD9C9F02B97DF01005A7818 /* sample_xcode_proj.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECD9C9ED2B97DF01005A7818 /* sample_xcode_proj.h */; };
+		ECD9CA0F2B9C065E005A7818 /* tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD9CA0E2B9C065E005A7818 /* tests.m */; };
+		ECD9CA102B9C065E005A7818 /* libsample_xcode_proj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD9C9EA2B97DF01005A7818 /* libsample_xcode_proj.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD9CA112B9C065E005A7818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD9C9E22B97DF01005A7818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD9C9E92B97DF01005A7818;
+			remoteInfo = sample_xcode_proj;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ECD9C9E82B97DF01005A7818 /* CopyFiles */ = {
@@ -18,6 +50,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				ECB62CB62BA565EB00F9F670 /* add.h in CopyFiles */,
+				ECB62CB22BA565BB00F9F670 /* subtract.h in CopyFiles */,
+				ECB62CB32BA565BB00F9F670 /* multiply.h in CopyFiles */,
+				ECB62CB42BA565BB00F9F670 /* divide.h in CopyFiles */,
 				ECD9C9F02B97DF01005A7818 /* sample_xcode_proj.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -25,17 +61,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		020441BCACF8A365452A33D4 /* divide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = divide.h; path = ../sample_c_proj/src/divide/divide.h; sourceTree = SOURCE_ROOT; };
+		10C04ECEB50BF45C98E609F6 /* subtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = subtract.h; path = ../sample_c_proj/src/subtract/subtract.h; sourceTree = SOURCE_ROOT; };
+		15DD45D1B52BEA785882A90B /* add.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = add.c; path = ../sample_c_proj/src/add/add.c; sourceTree = SOURCE_ROOT; };
+		1B9D4D6BAC07CF9E66884687 /* multiply.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = multiply.c; path = ../sample_c_proj/src/multiply/multiply.c; sourceTree = SOURCE_ROOT; };
+		61A340449BE115FE9896A8B3 /* subtract.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = subtract.c; path = ../sample_c_proj/src/subtract/subtract.c; sourceTree = SOURCE_ROOT; };
+		69AD44F2ACF7D2E6F6C87E55 /* multiply.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = multiply.h; path = ../sample_c_proj/src/multiply/multiply.h; sourceTree = SOURCE_ROOT; };
+		9E01428E9BF83679E4648327 /* divide.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = divide.c; path = ../sample_c_proj/src/divide/divide.c; sourceTree = SOURCE_ROOT; };
+		AB984682913BC298B6D37B85 /* add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = add.h; path = ../sample_c_proj/src/add/add.h; sourceTree = SOURCE_ROOT; };
 		ECD9C9EA2B97DF01005A7818 /* libsample_xcode_proj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsample_xcode_proj.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD9C9ED2B97DF01005A7818 /* sample_xcode_proj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sample_xcode_proj.h; sourceTree = "<group>"; };
 		ECD9C9EE2B97DF01005A7818 /* sample_xcode_proj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_xcode_proj.m; sourceTree = "<group>"; };
+		ECD9CA0C2B9C065E005A7818 /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD9CA0E2B9C065E005A7818 /* tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		ECD9CA092B9C065E005A7818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD9CA102B9C065E005A7818 /* libsample_xcode_proj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		AD744E279AF3B783630870F8 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				10C04ECEB50BF45C98E609F6 /* subtract.h */,
+				69AD44F2ACF7D2E6F6C87E55 /* multiply.h */,
+				020441BCACF8A365452A33D4 /* divide.h */,
+				AB984682913BC298B6D37B85 /* add.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
 		ECD9C9E12B97DF01005A7818 = {
 			isa = PBXGroup;
 			children = (
 				ECD9C9EC2B97DF01005A7818 /* sample_xcode_proj */,
+				ECD9CA0D2B9C065E005A7818 /* tests */,
 				ECD9C9EB2B97DF01005A7818 /* Products */,
+				AD744E279AF3B783630870F8 /* headers */,
+				EEE446C3A45D5C6D42D845B4 /* sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD9C9EA2B97DF01005A7818 /* libsample_xcode_proj.a */,
+				ECD9CA0C2B9C065E005A7818 /* tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +128,51 @@
 			path = sample_xcode_proj;
 			sourceTree = "<group>";
 		};
+		ECD9CA0D2B9C065E005A7818 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9CA0E2B9C065E005A7818 /* tests.m */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		EEE446C3A45D5C6D42D845B4 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				61A340449BE115FE9896A8B3 /* subtract.c */,
+				1B9D4D6BAC07CF9E66884687 /* multiply.c */,
+				9E01428E9BF83679E4648327 /* divide.c */,
+				15DD45D1B52BEA785882A90B /* add.c */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13D3456695CA7480FE894D6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637541209B11D57B9A46C069 /* subtract.h in Headers */,
+				37F44DE39D0331A4E6C58793 /* multiply.h in Headers */,
+				52AD41D3B67D167A1A664D8F /* divide.h in Headers */,
+				B2AB4382A597692F0E685279 /* add.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC44FFC82267913DA34026F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB248EB946441791E7B758B /* subtract.h in Headers */,
+				22FE45B98B8F94E1B14202F4 /* multiply.h in Headers */,
+				38964ECB8E688B2DFE06EFAC /* divide.h in Headers */,
+				CE504411BCEDE7CA6E4B30DF /* add.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		ECD9C9E92B97DF01005A7818 /* sample_xcode_proj */ = {
@@ -65,6 +181,7 @@
 			buildPhases = (
 				ECD9C9E62B97DF01005A7818 /* Sources */,
 				ECD9C9E82B97DF01005A7818 /* CopyFiles */,
+				13D3456695CA7480FE894D6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -74,6 +191,24 @@
 			productName = sample_xcode_proj;
 			productReference = ECD9C9EA2B97DF01005A7818 /* libsample_xcode_proj.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		ECD9CA0B2B9C065E005A7818 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD9CA152B9C065E005A7818 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				ECD9CA082B9C065E005A7818 /* Sources */,
+				ECD9CA092B9C065E005A7818 /* Frameworks */,
+				8BC44FFC82267913DA34026F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD9CA122B9C065E005A7818 /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = ECD9CA0C2B9C065E005A7818 /* tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -85,6 +220,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					ECD9C9E92B97DF01005A7818 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ECD9CA0B2B9C065E005A7818 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -103,6 +241,7 @@
 			projectRoot = "";
 			targets = (
 				ECD9C9E92B97DF01005A7818 /* sample_xcode_proj */,
+				ECD9CA0B2B9C065E005A7818 /* tests */,
 			);
 		};
 /* End PBXProject section */
@@ -113,10 +252,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD9C9EF2B97DF01005A7818 /* sample_xcode_proj.m in Sources */,
+				895C48F7AC82192F80924CCA /* subtract.c in Sources */,
+				CCA94445851B68CAEFD279B9 /* multiply.c in Sources */,
+				AC9A417C997A43701BCFC5C3 /* divide.c in Sources */,
+				B2374BD18684456670806269 /* add.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD9CA082B9C065E005A7818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD9CA0F2B9C065E005A7818 /* tests.m in Sources */,
+				B652437683C2F0C0E73E84AC /* subtract.c in Sources */,
+				09F44A2984973C98BF7072E3 /* multiply.c in Sources */,
+				BC8F45319C24C71537627891 /* divide.c in Sources */,
+				AD91426087AF660E5282B57F /* add.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD9CA122B9C065E005A7818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD9C9E92B97DF01005A7818 /* sample_xcode_proj */;
+			targetProxy = ECD9CA112B9C065E005A7818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ECD9C9F12B97DF01005A7818 /* Debug */ = {
@@ -234,10 +397,23 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU3G4FZB99;
-				LIBRARY_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/subtract/subtract.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/multiply/multiply.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/divide/divide.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/add/add.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../sample_c_proj/src/subtract",
+					"$(SRCROOT)/../sample_c_proj/src/multiply",
+					"$(SRCROOT)/../sample_c_proj/src/divide",
+					"$(SRCROOT)/../sample_c_proj/src/add",
+				);
+				OTHER_CFLAGS = "-DFLAG_DEMO";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SYMROOT = /Users/home/git/auto_cmake/tests/resources/sample_c_proj/build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -247,10 +423,81 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU3G4FZB99;
-				LIBRARY_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/subtract/subtract.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/multiply/multiply.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/divide/divide.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/add/add.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../sample_c_proj/src/subtract",
+					"$(SRCROOT)/../sample_c_proj/src/multiply",
+					"$(SRCROOT)/../sample_c_proj/src/divide",
+					"$(SRCROOT)/../sample_c_proj/src/add",
+				);
+				OTHER_CFLAGS = "-DFLAG_DEMO";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SYMROOT = /Users/home/git/auto_cmake/tests/resources/sample_c_proj/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECD9CA132B9C065E005A7818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU3G4FZB99;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/subtract/subtract.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/multiply/multiply.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/divide/divide.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/add/add.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../sample_c_proj/src/subtract",
+					"$(SRCROOT)/../sample_c_proj/src/multiply",
+					"$(SRCROOT)/../sample_c_proj/src/divide",
+					"$(SRCROOT)/../sample_c_proj/src/add",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DFLAG_DEMO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-cmake.sample-xcode-proj.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SYMROOT = /Users/home/git/auto_cmake/tests/resources/sample_c_proj/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD9CA142B9C065E005A7818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU3G4FZB99;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/subtract/subtract.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/multiply/multiply.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/divide/divide.h,
+					/Users/home/git/auto_cmake/tests/resources/sample_c_proj/src/add/add.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../sample_c_proj/src/subtract",
+					"$(SRCROOT)/../sample_c_proj/src/multiply",
+					"$(SRCROOT)/../sample_c_proj/src/divide",
+					"$(SRCROOT)/../sample_c_proj/src/add",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DFLAG_DEMO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auto-cmake.sample-xcode-proj.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SYMROOT = /Users/home/git/auto_cmake/tests/resources/sample_c_proj/build;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -272,6 +519,15 @@
 			buildConfigurations = (
 				ECD9C9F42B97DF01005A7818 /* Debug */,
 				ECD9C9F52B97DF01005A7818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD9CA152B9C065E005A7818 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD9CA132B9C065E005A7818 /* Debug */,
+				ECD9CA142B9C065E005A7818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

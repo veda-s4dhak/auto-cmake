@@ -18,9 +18,6 @@ class AutoCMakeLibSharedAndroid():
         # Creating instance
         self.ac = AutoCMake(**cmake_config)
 
-        # Setting flags
-        self.flags = cmake_config["flags"]
-
     def run(self):
 
         # Recursively adding all source
@@ -44,7 +41,7 @@ class AutoCMakeLibSharedAndroid():
 
         # Setting flags
         self.ac.add("target_compile_definitions({} PUBLIC".format(self.ac.proj_name))
-        for flag in self.flags:
+        for flag in self.ac.flags:
            self.ac.add('    "{}"'.format(flag))
         self.ac.add(")\n")
 
