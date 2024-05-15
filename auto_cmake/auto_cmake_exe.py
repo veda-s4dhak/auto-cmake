@@ -48,7 +48,7 @@ class AutoCMakeExe():
         # Setting flags
         self.ac.add("target_compile_definitions({} PUBLIC".format(self.ac.proj_name))
         for flag in self.ac.flags:
-            self.ac.add('    "{}"'.format(flag))
+            self.ac.add('    {}'.format(flag))
         self.ac.add(")\n")
 
         # Setting executable properties
